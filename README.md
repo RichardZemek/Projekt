@@ -1,85 +1,43 @@
-# BeatLab 🎧
+# 🎧 BeatLab – Výuková platforma pro hudební producenty
 
-## Téma webu
-Web pro začátečníky i mírně pokročilé, kteří se chtějí naučit tvořit hudbu, beaty a pracovat ve FL Studiu.
+Vítej v projektu **BeatLab**! Jedná se o moderní, responzivní webovou platformu zaměřenou na výuku hudební produkce, tvorbu beatů (beatmaking) a práci v programu FL Studio. Web slouží jako komplexní průvodce pro začínající i pokročilé producenty, kterým nabízí strukturované návody, blogové články a přehledné prémiové plány.
 
----
-
-## Mapa stránek
-
-### Home
-Úvodní stránka webu.  
-Obsahuje krátké představení projektu BeatLab, vysvětlení, co návštěvník na webu najde, a rychlé navigační tlačítka na hlavní sekce jako návody, blog a kontakt.
+Projekt staví na čisté uživatelské zkušenosti (UX), responzivním gridu a vizuální identitě postavené na světlém, moderním designu s aktivními modrými akcenty.
 
 ---
 
-### O nás
-Stránka vysvětluje, kdo za projektem stojí a jaký je jeho cíl.  
-Popisuje, proč web vznikl, jakou má vizi a komu chce pomoci — především začínajícím producentům.
+## 🚀 Klíčové funkce webu
+
+* **Komplexní průvodce workflow:** Interaktivní vizualizace postupu tvorby beatu (od prvotní ideje až po finální mix).
+* **Technické know-how:** Detailní stránky zaměřené na základy FL Studia, mixování, mastering a práci s pluginy.
+* **Vzdělávací centrum:** Plnohodnotná sekce blogu s dedikovanými podstránkami pro jednotlivé články.
+* **Transparentní ceník:** Přehledné ceníkové karty s jasným vymezením funkcí pro úrovně *Free*, *Producer* a *Pro*.
 
 ---
 
-### FL Studio
-Základní přehled programu FL Studio.  
-Uživatel se dozví, co to FL Studio je, k čemu slouží a jaké jsou jeho hlavní části (např. playlist, channel rack, mixer).
+## 📂 Struktura projektu
 
----
+Zde je přehled souborů, ze kterých se BeatLab skládá (vyjma systémových souborů a záloh):
 
-### Beatmaking
-Stránka zaměřená na samotnou tvorbu beatů.  
-Obsahuje vysvětlení práce s drumy, patterny a melodiemi a ukazuje jednoduchý postup, jak vytvořit vlastní beat krok za krokem.
-
----
-
-### Mix & Master
-Úvod do mixování a masteringu.  
-Popisuje základní principy jako práce s hlasitostí, EQ a kompresí a ukazuje, jak připravit track na finální export.
-
----
-
-### Pluginy
-Přehled nástrojů používaných při tvorbě hudby.  
-Obsahuje informace o základních pluginech ve FL Studiu, vysvětlení VST pluginů a doporučení užitečných nástrojů.
-
----
-
-### Sample Packy
-Stránka o samplech a jejich využití.  
-Vysvětluje, co jsou sample packy, jak je používat při tvorbě hudby a jak si je efektivně organizovat.
-
----
-
-### Kontakt
-Kontaktní stránka pro komunikaci s návštěvníky.  
-Obsahuje kontaktní informace a jednoduchý formulář pro odeslání zprávy.
-
----
-
-## Blog
-
-### Přehled blogu
-Rozcestník všech článků.  
-Obsahuje seznam příspěvků s krátkým náhledem, aby si uživatel mohl vybrat zajímavé téma.
-
----
-
-### Blog článek 1
-**Téma:** Jak začít tvořit hudbu ve FL Studiu  
-Průvodce pro úplné začátečníky, který vysvětluje první kroky při práci ve FL Studiu a tvorbě hudby.
-
----
-
-### Blog článek 2
-**Téma:** 5 tipů pro lepší beat  
-Praktické tipy, které pomohou zlepšit kvalitu beatů a dodat jim profesionálnější zvuk.
-
----
-
-### Blog článek 3
-**Téma:** Nejčastější chyby začátečníků  
-Přehled typických chyb, kterým se začátečníci dopouštějí, a rady, jak se jim vyhnout.
-
----
-
-## Cíl projektu
-Cílem BeatLabu je zpřístupnit tvorbu hudby široké veřejnosti a pomoci lidem rozvíjet jejich kreativitu pomocí jednoduchých a srozumitelných návodů.
+```text
+BEATLAB/
+├── img/                       # Složka pro obrázky a grafické podklady
+├── BEATLAB.png                # Hlavní logo platformy
+│
+├── index.html                 # Úvodní (domovská) stránka webu
+├── o-nas.html                 # Příběh projektu BeatLab a jeho vize
+├── fl-studio.html             # Průvodce rozhraním FL Studia (Piano Roll, export...)
+├── beatmaking.html            # Stránka o kreativním procesu a workflow tvorby beatu
+├── pluginy.html               # Doporučené VST instrumenty a efekty
+├── mix-master.html            # Návody pro finální úpravu zvuku (mixing & mastering)
+│
+├── cenik.html                 # Nabídka předplatného a porovnání plánů
+├── kontakt.html               # Kontaktní formulář a odkazy na sociální sítě
+│
+├── blog.html                  # Rozcestník vzdělávacích článků
+├── clanek-1.html              # Článek 1: Jak začít tvořit hudbu
+├── clanek-2.html              # Článek 2: 5 tipů pro lepší beat
+├── clanek-3.html              # Článek 3: Nejčastější chyby
+│
+├── style.css                  # Globální stylesheet obsahující design systém a proměnné
+└── README.md                  # Dokumentace k projektu (tento soubor)
