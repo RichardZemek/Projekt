@@ -1,6 +1,6 @@
-🔗 **Živá ukázka webu:** [Otevřít web BeatLab](https://richardzemek.github.io/Projekt/beatlab/index.html)
-
 # 🎧 BeatLab – Výuková platforma pro hudební producenty
+
+🔗 **Ukázka webu:** [Otevřít web BeatLab](https://richardzemek.github.io/Projekt/beatlab/index.html)
 
 Vítej v projektu **BeatLab**! Jedná se o moderní, responzivní webovou platformu zaměřenou na výuku hudební produkce, tvorbu beatů (beatmaking) a práci v programu FL Studio. Web slouží jako komplexní průvodce pro začínající i pokročilé producenty, kterým nabízí strukturované návody, blogové články a přehledné prémiové plány.
 
@@ -8,7 +8,7 @@ Projekt staví na čisté uživatelské zkušenosti (UX), responzivním gridu a 
 
 ---
 
-## 🚀 Klíčové funkce webu
+##Klíčové funkce webu
 
 * **Komplexní průvodce workflow:** Interaktivní vizualizace postupu tvorby beatu (od prvotní ideje až po finální mix).
 * **Technické know-how:** Detailní stránky zaměřené na základy FL Studia, mixování, mastering a práci s pluginy.
@@ -17,7 +17,7 @@ Projekt staví na čisté uživatelské zkušenosti (UX), responzivním gridu a 
 
 ---
 
-## 📂 Struktura projektu
+##Struktura projektu
 
 Zde je přehled souborů, ze kterých se BeatLab skládá (vyjma systémových souborů a záloh):
 
