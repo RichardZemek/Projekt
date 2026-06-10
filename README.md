@@ -1,4 +1,4 @@
-🔗 **Živá ukázka webu:** [Otevřít web BeatLab]([https://TVOJE-JMENO.github.io/BEATLAB/](https://richardzemek.github.io/Projekt/beatlab/index.html))
+🔗 **Živá ukázka webu:** [Otevřít web BeatLab](https://richardzemek.github.io/Projekt/beatlab/index.html)
 
 # 🎧 BeatLab – Výuková platforma pro hudební producenty
 
