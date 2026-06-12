@@ -77,7 +77,7 @@
     <h2>Jednoduchý postup tvorby</h2>
 
     <p>
-      Při tvorbě beatu je nejlepší postupovat systematicky a po logických krocích. Jakmile máš hotový hrubý nápad, rozepíšeš ho do plnohodnotného aranžmá a doladíš detaily. Tvůj ideální workflow by měl vypadat nějak takto:
+      Při tvorbé beatu je nejlepší postupovat systematicky a po logických krocích. Jakmile máš hotový hrubý nápad, rozepíšeš ho do plnohodnotného aranžmá a doladíš detaily. Tvůj ideální workflow by měl vypadat nějak takto:
     </p>
 
     <!-- Vyčištěný vizuální řetězec postupu s ikonami šipek -->
@@ -89,6 +89,7 @@
       <span>Arrangement</span> <span class="arrow">→</span>
       <span>Mix</span>
     </div>
+  </section> <!-- Zde opraven tag, který původně chyběl -->
 
   <!-- Druhý blok karet (Producentské tipy) -->
   <section class="cards container">
@@ -116,6 +117,20 @@
 
   </section>
 
+   <!-- NOVÁ SEKCE: BPM Tapper -->
+  <section class="tapper-section container">
+    <div class="bpm-tapper">
+      <p class="tag"><i class="ph ph-metronome"></i> Audio Nástroj</p>
+      <h3>BeatLab BPM Counter</h3>
+      <p class="tapper-desc">Klikej na tlačítko do rytmu hudby pro zjištění tempa (BPM) tvého tracku.</p>
+      <div id="bpm-display">-- BPM</div>
+      <div class="tapper-controls">
+        <button id="tap-btn">TAP HERE</button>
+        <button id="reset-bpm-btn">Reset</button>
+      </div>
+    </div>
+  </section>
+
 </main>
 
 <!-- Sjednocená patička -->
@@ -131,6 +146,39 @@
     </div>
   </div>
 </footer>
+
+<!-- JAVASCRIPT LOGIKA PRO BPM TAPPER -->
+<script>
+  let taps = [];
+  const tapBtn = document.getElementById('tap-btn');
+  const bpmDisplay = document.getElementById('bpm-display');
+  const resetBtn = document.getElementById('reset-bpm-btn');
+
+  tapBtn.addEventListener('click', () => {
+    const now = Date.now();
+    taps.push(now);
+    
+    // Držíme v paměti jen posledních 5 kliknutí pro přesný a aktuální průměr
+    if (taps.length > 5) taps.shift();
+
+    if (taps.length > 1) {
+      let intervals = [];
+      for (let i = 1; i < taps.length; i++) {
+        intervals.push(taps[i] - taps[i-1]);
+      }
+      const averageInterval = intervals.reduce((a, b) => a + b) / intervals.length;
+      const bpm = Math.round(60000 / averageInterval);
+      
+      bpmDisplay.innerText = `${bpm} BPM`;
+    }
+  });
+
+  // Resetování počítadla
+  resetBtn.addEventListener('click', () => {
+    taps = [];
+    bpmDisplay.innerText = '-- BPM';
+  });
+</script>
 
 </body>
 </html>
