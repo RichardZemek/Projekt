@@ -14,7 +14,7 @@ Projekt staví na čisté uživatelské zkušenosti (UX), responzivním gridu a 
 * **Technické know-how:** Detailní stránky zaměřené na základy FL Studia, mixování, mastering a práci s pluginy.
 * **Vzdělávací centrum:** Plnohodnotná sekce blogu s dedikovanými podstránkami pro jednotlivé články.
 * **Transparentní ceník:** Přehledné ceníkové karty s jasným vymezením funkcí pro úrovně *Free*, *Producer* a *Pro*.
-
+* **BPM Tapper:** Jednoduchým klikáním zjisti tempo svého projektu.
 ---
 
 ## Struktura projektu
